@@ -1,0 +1,57 @@
+<% include header.ejs %>
+
+<div id="login-page" class="row">
+    <div class="col s4 m4 l4 xl4 offset-s4 offset-m4 offset-l4 offset-xl4">
+        <div class="row">
+            <div class="col s12 z-depth-4 card-panel">
+            <form class="login-form">
+                <div class="row">
+                <div class="input-field col s12 center">
+                    <h4>S'enregistrer</h4>
+                    <p class="center">Join to our community now !</p>
+                </div>
+                </div>
+                <div class="row margin">
+                <div class="input-field col s12">
+                    <i class="material-icons prefix">person_outline</i>
+                    <input id="username" type="text">
+                    <label for="username" class="center-align">Pseudo</label>
+                </div>
+                </div>
+                <div class="row margin">
+                <div class="input-field col s12">
+                    <i class="material-icons prefix">email</i>
+                    <input id="email" type="email">
+                    <label for="email" class="center-align">Email</label>
+                </div>
+                </div>
+                <div class="row margin">
+                <div class="input-field col s12">
+                    <i class="material-icons prefix">lock_outline</i>
+                    <input id="password" type="password">
+                    <label for="password">Mot de passe</label>
+                </div>
+                </div>
+                <div class="row margin">
+                <div class="input-field col s12">
+                    <i class="material-icons prefix">lock_outline</i>
+                    <input id="password-again" type="password">
+                    <label for="password-again">Confirmer mot de passe</label>
+                </div>
+                </div>
+                <div class="row">
+                <div class="input-field col s12">
+                    <a href="index.html" class="btn waves-effect waves-light col s12">S'enregistrer</a>
+                </div>
+                <div class="input-field col s12">
+                    <p class="margin center medium-small sign-up">Vous posséder déjà un compte ? <a href="/login">Se connecter</a></p>
+                </div>
+                </div>
+            </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<% include scripts.ejs %>
+<% include footer.ejs %>
